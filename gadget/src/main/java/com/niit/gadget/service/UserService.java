@@ -1,11 +1,8 @@
 package com.niit.gadget.service;
 
+import com.niit.gadget.Model.SignupModel;
 
-	import com.niit.gadget.model.SignupModel;
+public interface UserService{
+		public void insertSignupModel(SignupModel u);
 
-	public interface UserService{
-			public void insertSignupModel(SignupModel u);
-
-		}
-
-
+	}

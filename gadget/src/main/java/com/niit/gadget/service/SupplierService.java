@@ -1,20 +1,8 @@
 package com.niit.gadget.service;
+import com.niit.gadget.Model.SupplierModel;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+public interface SupplierService {
 
-import com.niit.gadget.dao.UserDAO;
-import com.niit.gadget.model.CategoriesModel;
-import com.niit.gadget.model.SignupModel;
-
-@Service
-public class SupplierService {
-	@Autowired
-	UserDAO userDAO;
-	public void insertSignupModel(SignupModel u)
-	{
-		userDAO.insertSignupModel(u);
-	}
-	
+public void insertSupplierModel(SupplierModel u);
 
 }

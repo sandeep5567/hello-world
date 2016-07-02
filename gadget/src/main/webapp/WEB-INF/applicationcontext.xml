@@ -26,13 +26,14 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
     </property>
     <property name="annotatedClasses">
             <list>
-                <value>com.niit.gadget.model.SignupModel</value>
+                <value>com.niit.gadget.Model.SignupModel</value>
+                <value>com.niit.gadget.Model.CategoryModel</value>  
             </list>
-    </property>
+              </property>
 </bean>
 <context:component-scan base-package="com.niit.gadget.controller"/>
 <context:component-scan base-package="com.niit.gadget.dao"/>
-<context:component-scan base-package="com.niit.gadget.model"/>
+<context:component-scan base-package="com.niit.gadget.Model"/>
 <context:component-scan base-package="com.niit.gadget.service"/>
 
 
@@ -43,3 +44,4 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
         <property name="password" value=""></property>  
 </bean>  
 </beans>
+

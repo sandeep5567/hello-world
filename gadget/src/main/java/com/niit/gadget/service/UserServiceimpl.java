@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.niit.gadget.dao.UserDAO;
-import com.niit.gadget.model.SignupModel;
+import com.niit.gadget.Model.SignupModel;
 
 @Service
 public class UserServiceimpl implements UserService{

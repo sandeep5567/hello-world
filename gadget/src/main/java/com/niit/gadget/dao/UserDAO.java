@@ -1,7 +1,7 @@
 package com.niit.gadget.dao;
 
 
-	import com.niit.gadget.model.SignupModel;
+	import com.niit.gadget.Model.SignupModel;
 
 	public interface UserDAO {
 

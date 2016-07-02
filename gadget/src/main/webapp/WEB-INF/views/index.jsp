@@ -39,28 +39,13 @@
  <li class="active"><a href="index.jsp">  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
   </a></li>
         
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Type <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">E-Book</a></li>
-    
-            
-            <li role="separator" class="divider"></li>
-            <li><a href="#">New gadgets</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Used Gadgets</a></li>
-          </ul>
-        </li>
+       
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
+      
+      <ul class="nav navbar-nav ">
         <li><a href="signup">SIGNUP</a></li>
         <li><a href="login">LOGIN</a></li>
+        <li><a href="customercare">CUSTOMERCARE</a></li>
         
           </ul>
           
@@ -83,19 +68,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="I Phone.jpg" alt="I Phone" width="460" height="145">
+        <img src="E:\Gadgets\laptop.jpg" alt="laptop" width="100" height="100">
       </div>
 
       <div class="item">
-        <img src="laptop.jpg" alt="laptop" width="460" height="145">
+        <img src="E:\Gadgets\I Phone.jpg" alt="I Phone" width="100" height="100">
       </div>
     
       <div class="item">
-        <img src="Hubolt.jpg" alt="Hubolt" width="460" height="145">
+      <img src="E:\Gadgets\nikon.jpg" class="img-thumbnail" alt="nikon" width="184" height="200">
       </div>
 
       <div class="item">
-        <img src="black.jpg" alt="black" width="460" height="145">
+        <img src="E:\Gadgets\black.jpg" alt="black" width="100" height="100">
       </div>
     </div>
 
@@ -113,15 +98,15 @@
 <div class="container">
            <div class="row">  
            <div class="col-md-6"> 
-  <img src="sony z5.jpg" class="img-thumbnail" alt="sony z5" width="154" height="136">
+  <img src="E:\Gadgets\sony z5.jpg" class="img-thumbnail" alt="sony z5" width="154" height="136">
   
   
    
-    <img src="television.jpg" class="img-thumbnail" alt="television" width="154" height="136">
+    <img src="E:\Gadgets\television.jpg" class="img-thumbnail" alt="television" width="154" height="136">
     
     
     
-     <img src="binocular.jpg" class="img-thumbnail" alt="binocular" width="184" height="200">
+     <img src="E:\Gadgets\Hubolt.jpg" alt="Hubolt" width="100" height="100">
     
     
  

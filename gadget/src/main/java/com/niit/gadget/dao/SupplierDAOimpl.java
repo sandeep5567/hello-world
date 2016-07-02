@@ -9,18 +9,19 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public class UserDAOimpl implements UserDAO{
+public  class SupplierDAOimpl implements SupplierDAO{
 	
 @Autowired
 private SessionFactory sessionFactory;
     @Transactional
-	public void insertSignupModel(SignupModel u)
+	public void insertSupplierModel(SupplierModel u)
 	{
 		Session s=this.sessionFactory.openSession();
 		Transaction t=s.beginTransaction();
 		s.save(u);
 		t.commit();
 	}
+
 	
 	
 	
