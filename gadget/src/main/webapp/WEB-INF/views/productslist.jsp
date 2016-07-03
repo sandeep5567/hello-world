@@ -5,7 +5,7 @@
 <%@ page isELIgnored="false" %>
 <html>
 <head>
- <title>Gadgets/title>
+ <title>Gadgets</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -26,7 +26,7 @@
  <p style="text-align: justify;">
   		<div ng-app="myApp" ng-controller="namesCtrl">
 	<form>
-		<input type="text" ng-model="search">&nbsp&nbsp
+		<input type="text" ng-model="search">&nbsp&nbsp 
 		<span class="glyphicon glyphicon-search"></span>
 		
 	</form>

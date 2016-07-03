@@ -27,7 +27,10 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
     <property name="annotatedClasses">
             <list>
                 <value>com.niit.gadget.Model.SignupModel</value>
-                <value>com.niit.gadget.Model.CategoryModel</value>  
+                <value>com.niit.gadget.Model.CategoryModel</value> 
+                  <value>com.niit.gadget.Model.SupplierModel</value>   
+                   <value>com.niit.gadget.Model.ProductModel</value> 
+
             </list>
               </property>
 </bean>

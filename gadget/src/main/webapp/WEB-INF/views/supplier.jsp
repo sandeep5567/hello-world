@@ -1,7 +1,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html>
 <head>
-<title>Category</title>
+<title>Supplier</title>
 </head>
 <body>
 

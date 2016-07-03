@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MyGadgetWorld/Home</title>
+  <title>GadgetWorld</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MyGadgetWorld</a>
+      <a class="navbar-brand" href="#">GadgetWorld</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,8 +36,7 @@
       <ul class="nav navbar-nav">
         
       
- <li class="active"><a href="index.jsp">  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-  </a></li>
+ <li class="active"><a href="index.jsp">  <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
         
        
       </ul>
