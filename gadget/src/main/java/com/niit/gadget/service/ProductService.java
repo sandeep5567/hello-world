@@ -1,11 +1,20 @@
 package com.niit.gadget.service;
 
+
+import com.niit.gadget.model.Product;
+
 import java.util.List;
 
-import com.niit.gadget.Model.ProductModel;
-
 public interface ProductService {
-	public void insertProductModel(ProductModel u);
-	List<ProductModel> getProductList();
+
+    List<Product> getProductList();
+
+    Product getProductById (int id);
+
+    void addProduct(Product product);
+
+    void editProduct(Product product);
+
+    void deleteProduct(Product product);
 
 }
