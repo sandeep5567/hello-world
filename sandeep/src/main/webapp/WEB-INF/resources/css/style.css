@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+/* Put your css in here */
+
+
+.isCorrect_true{
+  background-color: green;
+}
+
+.isCorrect_false{
+  background-color: red;
+}
