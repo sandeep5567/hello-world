@@ -1,0 +1,7 @@
+com\niit\collaboration\dao\RoleDAOImpl.class
+com\niit\collaboration\model\Role.class
+com\niit\collaboration\dao\UserDAOImpl.class
+com\niit\collaboration\config\ApplicationContextConfig.class
+com\niit\collaboration\model\Users.class
+com\niit\collaboration\dao\UserDAO.class
+com\niit\collaboration\dao\RoleDAO.class

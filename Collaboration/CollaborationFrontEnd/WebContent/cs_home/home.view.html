@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Hi {{vm.user.firstName}}!</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#/">Home</a></li>
+				<li><a href="#/job_opportunities"> Job Opportunities </a></li>
+				<li><a href="#/blog">Blogs</a></li>
+				<li><a href="#/event">Events</a></li>
+				<li><a href="#/about">About</a></li>
+			</ul>
+			<ul style="float:right;">
+			    <li><a href="#/login" class="btn btn-primary">Logout</a></li>
+			</ul>
+</nav>
+<p>You're logged in!!</p>
+<h3>All registered users:</h3>
+<ul>
+    <li ng-repeat="user in vm.allUsers">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a href="#" ng-click="vm.deleteUser(user.id)">Delete</a>
+    </li>
+</ul>

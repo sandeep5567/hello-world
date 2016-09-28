@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome To E-Chat</title>
+<link rel="stylesheet"
+	href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+<link href="app-content/app.css" rel="stylesheet" />
+</head>
+<body ng-app="app">
+
+	<div class="jumbotron">
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div
+					ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }"
+					ng-if="flash" ng-bind="flash.message"></div>
+				<div ng-view></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://code.angularjs.org/1.2.20/angular.js"></script>
+	<script src="http://code.angularjs.org/1.2.20/angular-route.js"></script>
+	<script src="http://code.angularjs.org/1.2.13/angular-cookies.js"></script>
+
+	<script src="app.js"></script>
+	<script src="app-services/authentication.service.js"></script>
+	<script src="app-services/flash.service.js"></script>
+	<script src="cs_registration/registration.service.js"></script>
+	<script src="cs_home/home.controller.js"></script>
+	<script src="cs_login/login.controller.js"></script>
+	<script src="cs_registration/registration.controller.js"></script>
+
+</body>
+</html>
