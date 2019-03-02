@@ -44,7 +44,7 @@ public class BlogDAOImpl implements BlogDAO {
 
 		return null;
 	}
-
+ 
 	@Transactional
 	public void saveorupdate(Blog blog) {
 		sessionFactory.getCurrentSession().saveOrUpdate(blog);
